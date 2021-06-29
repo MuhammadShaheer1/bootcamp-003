@@ -36,7 +36,7 @@ jobs:
           cmd: install # npm install/ yarn install
         
       - name: adding yarn
-      - run: yarn global add yarn
+        run: yarn global add yarn
       
       - name: Creating build
         run: yarn build
